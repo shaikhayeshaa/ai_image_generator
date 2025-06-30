@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:stability_image_generation/stability_image_generation.dart';
 
 class GenerativeViewmodel with ChangeNotifier {
-  final String apikey = 'sk-RbX8tgNS6mOiT0RZfA3vsFnj5RxB1ID1Yt1jyAS6dN5PcKWq';
+  final String apikey = 'YOUR_API_KEY';
 
   bool isLoading = false;
   Uint8List? generatedImage;
